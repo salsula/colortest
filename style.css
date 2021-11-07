@@ -20,7 +20,7 @@ article {
 
 
 h1 {
-    color: #7161EF;
+    color: #56f;
 }
 
 h2, h3, h4, h5, h6 {
@@ -33,7 +33,7 @@ button {
     margin: 1rem 0;
     border-radius: 28px;
     padding: 1rem;
-    background: #7161EF;
+    background: #56f;
     border: none;
     color: white;
     cursor: pointer;
@@ -48,7 +48,7 @@ button:hover {
 }
 
 a {
-    color: #EAF205;
+    color: #eeee00;
     text-decoration: underline;
     text-underline-offset: 5px;
 }
@@ -61,7 +61,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #EAF205;
+    background: #eeee00;
     color: black;
     padding: 1rem;
     text-align: center;
