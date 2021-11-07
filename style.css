@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,700;1,700&family=Inter:wght@400;700&display=swap');
+
+*,*::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    text-rendering: optimizeLegibility;
+    line-height: 1.4;
+    width: 80%;
+    margin: 0 auto;
+    background: #0b0b0b;
+    color: #f9f9f9;
+}
+
+h1 {
+    color: #0067A3;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+button {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    margin-top: 1rem;
+    border-radius: 28px;
+    padding: 1rem;
+    background: #0067A3;
+    border: none;
+    color: #f3f3f3;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #f3f3f3;
+    color: #0067A3;
+    /*
+    box-shadow: 0 8px 18px #0d0d0d;
+    */
+}
+
+a {
+    color: #D2D904;
+}
+
+a:hover {
+    color: #0b0b0b;
+    background-color: #D2D904;
+    text-decoration: none;
+}
+
+@media (min-width: 900px) {
+    body {
+        width: 40%;
+    }
+}
