@@ -1,60 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,700;1,700&family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 *,*::before, *::after {
     box-sizing: border-box;
 }
 
 body {
-    font-family: "Inter", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     text-rendering: optimizeLegibility;
     line-height: 1.4;
+    margin: 0;
+    background: #222;
+    color: #B8B8B8;
+}
+
+article {
     width: 80%;
     margin: 0 auto;
-    background: #0b0b0b;
-    color: #f9f9f9;
 }
+
 
 h1 {
-    color: #0067A3;
-    font-family: "IBM Plex Mono", monospace;
+    color: #7161EF;
 }
 
-h2 {
-    font-weight: 400;
+h2, h3, h4, h5, h6 {
+    color: white;
 }
 
 button {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
-    margin-top: 1rem;
+    margin: 1rem 0;
     border-radius: 28px;
     padding: 1rem;
-    background: #0067A3;
+    background: #7161EF;
     border: none;
-    color: #f3f3f3;
+    color: white;
     cursor: pointer;
 }
 
 button:hover {
-    background: #f3f3f3;
-    color: #0067A3;
+    background: white;
+    color: black;
     /*
     box-shadow: 0 8px 18px #0d0d0d;
     */
 }
 
 a {
-    color: #D2D904;
+    color: #EAF205;
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }
 
 a:hover {
-    color: #0b0b0b;
-    background-color: #D2D904;
     text-decoration: none;
 }
 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EAF205;
+    color: black;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer h2 {
+    color: black;
+}
+
 @media (min-width: 900px) {
-    body {
+    article {
         width: 40%;
     }
 }
