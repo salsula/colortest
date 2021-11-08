@@ -10,7 +10,7 @@ body {
     line-height: 1.4;
     margin: 0;
     background: #123;
-    color: #bcd;
+    color: #abc;
 }
 
 article {
@@ -20,7 +20,7 @@ article {
 
 .logo {
     font-family: "Inconsolata";
-    font-size: 3rem;
+    font-size: 2rem;
     color: #2ca;
     line-height: 1;
 }
