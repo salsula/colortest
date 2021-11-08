@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 *,*::before, *::after {
     box-sizing: border-box;
@@ -9,8 +9,8 @@ body {
     text-rendering: optimizeLegibility;
     line-height: 1.4;
     margin: 0;
-    background: #222;
-    color: #B8B8B8;
+    background: #123;
+    color: #abc;
 }
 
 article {
@@ -18,25 +18,32 @@ article {
     margin: 0 auto;
 }
 
-
-h1 {
-    color: #56f;
+.logo {
+    font-family: "Inconsolata";
+    font-size: 3rem;
+    color: #2ca;
+    line-height: 1;
 }
 
-h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
 button {
-    font-family: "Inter", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 1rem;
     margin: 1rem 0;
     border-radius: 28px;
     padding: 1rem;
-    background: #56f;
+    background: #67f;
     border: none;
     color: white;
     cursor: pointer;
+}
+
+.button {
+    background: #123;
+
 }
 
 button:hover {
@@ -45,6 +52,10 @@ button:hover {
     /*
     box-shadow: 0 8px 18px #0d0d0d;
     */
+}
+
+.button:hover {
+    background: white;
 }
 
 a {
@@ -61,7 +72,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #eeee00;
+    background: #67f;
     color: black;
     padding: 1rem;
     text-align: center;
