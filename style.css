@@ -10,7 +10,7 @@ body {
     line-height: 1.4;
     margin: 0;
     background: #123;
-    color: #abc;
+    color: #bcd;
 }
 
 article {
@@ -26,18 +26,18 @@ article {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #eee;
+    color: #f2f2f2;
 }
 
 button {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1rem;
     margin: 1rem 0;
-    border-radius: 28px;
+    border-radius: 4px;
     padding: 1rem;
-    background: #67f;
-    border: none;
-    color: white;
+    border: 2px solid #67f;
+    background: none;
+    color: #bcd;
     cursor: pointer;
 }
 
@@ -47,15 +47,16 @@ button {
 }
 
 button:hover {
-    background: #eee;
-    color: black;
+    border: 2px solid #67f;
+    background: #67f;
+    color: white;
     /*
     box-shadow: 0 8px 18px #0d0d0d;
     */
 }
 
 .button:hover {
-    background: #eee;
+    background: #f2f2f2;
 }
 
 a {
@@ -66,20 +67,6 @@ a {
 
 a:hover {
     text-decoration: none;
-}
-
-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #2ca;
-    color: black;
-    padding: 1rem;
-    text-align: center;
-}
-
-footer h2 {
-    color: black;
 }
 
 @media (min-width: 900px) {
