@@ -26,7 +26,7 @@ article {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: white;
+    color: #f9f9f9;
 }
 
 button {
@@ -47,7 +47,7 @@ button {
 }
 
 button:hover {
-    background: white;
+    background: #f9f9f9;
     color: black;
     /*
     box-shadow: 0 8px 18px #0d0d0d;
@@ -55,7 +55,7 @@ button:hover {
 }
 
 .button:hover {
-    background: white;
+    background: #f9f9f9;
 }
 
 a {
@@ -72,7 +72,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #67f;
+    background: #2ca;
     color: black;
     padding: 1rem;
     text-align: center;
