@@ -26,7 +26,7 @@ article {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #f9f9f9;
+    color: #eee;
 }
 
 button {
@@ -47,7 +47,7 @@ button {
 }
 
 button:hover {
-    background: #f9f9f9;
+    background: #eee;
     color: black;
     /*
     box-shadow: 0 8px 18px #0d0d0d;
@@ -55,7 +55,7 @@ button:hover {
 }
 
 .button:hover {
-    background: #f9f9f9;
+    background: #eee;
 }
 
 a {
