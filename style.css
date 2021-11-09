@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 *,*::before, *::after {
     box-sizing: border-box;
@@ -14,9 +14,63 @@ body {
     color: #bcd;
 }
 
+nav {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 .5rem .5rem rgba(0,0,0,0.3);
+    position: fixed;
+    background: #123;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 3rem;
+}
+
+header h1 {
+    font-size: 4rem;
+    line-height: 1;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero {
+    image-rendering: crisp-edges;
+    height: 70vh;
+    background: #012;
+    padding: 2rem;
+    border-radius: 14px;
+}
+
 article {
     width: 80%;
     margin: 0 auto;
+}
+
+article h2 {
+    font-size: 3rem;
+}
+
+article span {
+    background: #012;
+    border-radius: 4px;
+    padding: 1rem .5rem;
+}
+
+.contenedor-soluciones {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .logo {
@@ -41,7 +95,15 @@ button {
 }
 
 .button {
-    background: #123;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+    padding: .5rem;
+    border: none;
+    background: #67f;
+    color: white;
+    cursor: pointer;
 
 }
 
@@ -54,8 +116,9 @@ button:hover {
 }
 
 .button:hover {
-    background: #f2f2f2;
+    padding: .5rem;
 }
+
 
 a {
     color: #eeee00;
@@ -67,8 +130,15 @@ a:hover {
     text-decoration: none;
 }
 
+footer {
+    background: #012;
+    padding: 2rem 1rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+
 @media (min-width: 900px) {
     article {
-        width: 40%;
+        width: 80%;
     }
 }
